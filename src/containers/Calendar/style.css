@@ -1,0 +1,9 @@
+.schedule {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.container-calendar {
+    display: flex;
+    justify-content: center;
+}

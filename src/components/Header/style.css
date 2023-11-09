@@ -1,0 +1,25 @@
+.counter {
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    color: white;
+    display: none;
+}
+
+.icon-container {
+    position: relative;
+}
+.icon-noti {
+    margin-left: 40px;
+    margin-top: 13px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.icon-noti:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,37 @@
+.itemNoti {
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    border-bottom: 2px solid rgb(168, 164, 164);
+    margin-bottom: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-color: rgba(182, 204, 218, 0.5);
+    cursor: pointer;
+    z-index: 15;
+    text-decoration: none;
+    color:rgb(3, 96, 96);
+}
+
+/* .itemNoti::before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+} */
+
+.icon-container-item {
+    border-radius: 50%;
+    background-color: rgba(117, 175, 233, 0.5);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

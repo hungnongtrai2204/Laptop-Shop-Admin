@@ -1,0 +1,94 @@
+.category-container{
+    margin-top: 1.5vh;
+}
+.modal-header{
+    padding: 5px 15px;
+    background-color: #75bee8;
+}
+.modal-title{
+    font-size: 18px;
+    color: #fff;
+}
+.modal-footer{
+    padding: 5px 15px;
+
+}
+.actionBtnContainer{
+    display: flex;
+    align-items: center;
+}
+.actionBtnContainer > button{
+    border: 0;
+    margin: 0 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    box-shadow: 1px 1px 3px 1px rgb(178, 177, 177);
+
+}
+.actionBtnContainer .btn-add-cate:hover{
+    box-shadow: 2px 2px 5px 1px rgb(178, 177, 177);
+    background-color: rgb(68, 248, 80);
+}
+.actionBtnContainer .btn-edit-cate:hover{
+    box-shadow: 2px 2px 5px 1px rgb(178, 177, 177);
+    background-color: rgb(68, 248, 218);
+}
+.actionBtnContainer .btn-delete-cate:hover{
+    box-shadow: 2px 2px 5px 1px rgb(178, 177, 177);
+    background-color: rgb(255, 50, 50);
+}
+.btn-add-cate{
+    background-color: rgb(134, 255, 142);
+    color: rgb(57, 57, 57);
+}
+.btn-edit-cate{
+    background-color: rgb(134, 255, 255);
+    color: rgb(57, 57, 57);
+}
+.btn-delete-cate{
+    background-color: rgb(255, 78, 78);
+    color: rgb(57, 57, 57);
+}
+.list-container{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border: 1px solid rgba(179, 177, 177, 0.481);
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgb(178, 177, 177);
+    margin-bottom: 5vh;
+}
+.react-checkbox-tree{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.react-checkbox-tree label:hover{
+    border-radius: 2px;
+    box-shadow: 1.5px 1px 3px 1px rgb(178, 177, 177);
+    background-color: rgb(226, 227, 226);
+}
+.list-container-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rct-collapse svg{
+    color: rgb(0, 255, 242);
+}
+.rct-collapse svg:hover{
+    color: rgb(255, 0, 0);
+}
+.rct-checkbox svg{
+    color: rgb(14, 199, 57);
+}
+.rct-icons-fa4 .rct-icon-parent-open::before{
+    content: "•";
+    color: rgb(119, 137, 255);
+}
+.rct-icons-fa4 .rct-icon-leaf::before{
+    content: "•";
+    color: rgb(255, 119, 119);
+}

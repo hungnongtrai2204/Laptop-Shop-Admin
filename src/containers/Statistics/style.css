@@ -1,0 +1,106 @@
+.totalTakings {
+    height: 325px;
+    width: 610px;
+    box-shadow: 4px 4px 10px 2px rgb(178, 177, 177) ;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid rgba(178, 177, 177, 0.2);
+    padding: 20px;
+}
+
+.first-component {
+    display: flex;
+    margin-left: 50px;
+}
+
+.sold-out-product {
+    width: 30%;
+    box-shadow: 4px 4px 10px 2px rgb(178, 177, 177) ;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sold-out-product table {
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.sold-out-product table tr:first-child{
+    font-weight: bold;
+    background-color: rgba(46,46,46,.8);
+    color: white;
+}
+
+.sold-out-product table tr:first-child td:first-child {
+    border-radius: 4px 0 0 0;
+    border: none;
+}
+
+.sold-out-product table tr:first-child td:last-child {
+    border-radius: 0 4px 0 0;
+    border: none;
+}
+
+.sold-out-product table tr:first-child td:first-child {
+    border-right: 1px solid white;
+}
+
+.sold-out-product table td {
+    border: .5px solid grey;
+}
+
+.product-proportion-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 4px;
+    border: 1px solid rgba(178, 177, 177, 0.2);
+    box-shadow: 4px 4px 10px 2px rgb(178, 177, 177) ;
+    padding: 40px 0;
+}
+
+.square-information {
+    width: 350px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-top: 30px;
+
+}
+
+.square-information .square-item {
+    width: 150px;
+    height: 150px;
+    box-shadow: 4px 4px 10px 2px rgb(178, 177, 177) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amount-of-product {
+    width: 50%;
+    box-shadow: 4px 4px 10px 2px rgb(178, 177, 177) ;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.second-component {
+    display: flex;
+    margin-bottom: 30px;
+    
+}
